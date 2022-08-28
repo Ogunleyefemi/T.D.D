@@ -6,5 +6,3 @@ function wordCounter(text){
     })
     return Counter;
 };
-
-console.log(wordCounter(text));
