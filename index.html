@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <title>test driven development</title>
 </head>
 <body>
-    
+    <div class="container">
+    <form id="form">
+        <div class="form-group">
+            <h2>Input your text to check numbers of words and occurence.</h2><br>
+        <input type="text" placeholder="input your text" class="form-control" id="inputText" required><br>
+        <input type="text" placeholder="word to check" class="form-control" id="word-to-count"><br>
+        <button type="submit" class="bg-success">CHECK</button>
+        </div>
+    </form>
+    <p>number of words : <span id="counts"></span></p><br>
+    <p>word to count : <span id="wordToCount"></span></p><br>
+    <p>occurence : <span id="occurence"></span></p>
+    </div>
 </body>
 </html>
